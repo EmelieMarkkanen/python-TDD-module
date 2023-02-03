@@ -5,13 +5,13 @@ from unittest.mock import patch
 
 class TestStudent(unittest.TestCase):
 
-    @classmethod
+    """@classmethod
     def setUpClass(cls):
         print("set up class")
 
     @classmethod
     def tearDownClass(cls):
-        print("tear down Class")
+        print("tear down Class")"""
 
     def setUp(self):
         print('setUp')
